@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:rgb(252, 252, 102);
+}
+.container{
+    height: 100%;
+    width: 40%;
+    margin: 15px auto;
+    padding-top: 15px;
+    padding: 8px;
+    border: 2px solid grey;
+    border-radius: 12px;
+    background-color:white;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+fieldset{
+    margin:2px;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+legend{
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+#note{
+    margin: 5px;
+}
+.personal{
+    margin-top: 15px;
+}
+.check{
+    margin:8px 2px;
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 5px;
+}
+.political{
+    border: 1px solid grey;
+    margin:8px 2px;
+    padding: 5px;
+    border-radius: 5px;
+}
+input,textarea{
+    border: 1px solid black;
+}
+input:hover,textarea:hover{
+    border-color: rgb(187, 32, 32);
+}
+#para{
+    margin: 5px;
+}
+.submit{
+    height: 40px;
+    width: 156px;
+    margin: auto;
+    
+}
+#submit{
+    height: 30px;
+    width: 156px;
+    margin: auto;
+    background-color: rgb(248, 14, 14);
+    border-radius: 12px;
+}
